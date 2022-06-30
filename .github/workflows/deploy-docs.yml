@@ -1,36 +1,42 @@
-# action 的名称
-name: Deploy GitHub Pages
+name: 部署文档
 
-# 触发条件：在 push 到 main 分支后
 on:
   push:
     branches:
+      # 确保这是你正在使用的分支名称
       - main
 
-# 任务
 jobs:
-  build-and-deploy:
-    # 服务器环境：最新版 Ubuntu
+  deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      # 拉取代码
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
-          persist-credentials: false
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
-      # 生成静态文件
-      - name: Build
-        run: npm install && npm run docs:build
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
 
-      # 部署到 GitHub Pages
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: pnpm
+
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm docs:build
+
       - name: Deploy
-        # 使用别人写好的一个 action
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 这里的 ACCESS_TOKEN 名字需要和下文中的相对应
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          # 打包后的文件部署到哪个分支上
-          BRANCH: gh-pages
-          # 打包后的文件在哪里
-          FOLDER: docs/.vuepress/dist
+          # 这是文档部署到的分支名称
+          branch: gh-pages
+          folder: docs/.vuepress/dist

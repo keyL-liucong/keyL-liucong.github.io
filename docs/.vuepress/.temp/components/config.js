@@ -1,9 +1,9 @@
-import { useStyleTag } from "C:/Users/Administrator/Desktop/新建文件夹 (2)/node_modules/vuepress-plugin-components/lib/client/composables";
+import { useStyleTag } from "E:/keyL-liucong.github/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "C:/Users/Administrator/Desktop/新建文件夹 (2)/node_modules/vuepress-plugin-components/lib/client/components/Badge";
-import FontIcon from "C:/Users/Administrator/Desktop/新建文件夹 (2)/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import BackToTop from "C:/Users/Administrator/Desktop/新建文件夹 (2)/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
+import Badge from "E:/keyL-liucong.github/node_modules/vuepress-plugin-components/lib/client/components/Badge";
+import FontIcon from "E:/keyL-liucong.github/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
+import BackToTop from "E:/keyL-liucong.github/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({
