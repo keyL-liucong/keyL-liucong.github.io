@@ -29,7 +29,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           # 这里的 ACCESS_TOKEN 名字需要和下文中的相对应
-          ACCESS_TOKEN: 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
+          ACCESS_TOKEN: ${{ secrets.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 }}
           # 打包后的文件部署到哪个分支上
           BRANCH: gh-pages
           # 打包后的文件在哪里
