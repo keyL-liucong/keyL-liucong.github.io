@@ -5,7 +5,7 @@ category:
   - CategoryA
   - CategoryB
 tag:
-  - tag A
+  - tag A  
   - tag B
 ---
 
