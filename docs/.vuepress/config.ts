@@ -7,7 +7,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "主题演示1",
+      title: "Hello World",
       description: "vuepress-theme-hope 的演示",
     },
     "/en/": {

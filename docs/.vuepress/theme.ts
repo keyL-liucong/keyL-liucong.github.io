@@ -4,7 +4,6 @@ import * as sidebar from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
-
   author: {
     name: "keyL-liucong",
     url: "https://mrhope.site",
@@ -68,7 +67,7 @@ export default hopeTheme({
 
       blog: {
         description: "一个前端开发者",
-        intro: "/zh/intro.html",
+        intro: "/intro.html",
       },
 
     },

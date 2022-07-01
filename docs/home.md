@@ -7,11 +7,11 @@ heroText: 项目名称
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:
   - text: 使用指南 💡
-    link: /zh/guide/
+    link: /guide/
     type: primary
 
   - text: 博客主页 🏠
-    link: /zh/
+    link: /
 
 features:
   - title: Markdown 增强
@@ -99,7 +99,7 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2022-present Hello W
 ---
 
 这是项目主页的案例。你可以在这里放置你的主体内容。
