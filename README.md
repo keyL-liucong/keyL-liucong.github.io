@@ -2,8 +2,6 @@
 
 基于 VuePress，vuepress-theme-hope 搭建博客
 
-[vuepress-theme-hope-V2](https://vuepress-theme-hope.github.io/v2/)
-
 目录结构
 .
 ├── .github (可选的) → GitHub 配置文件存放路径
