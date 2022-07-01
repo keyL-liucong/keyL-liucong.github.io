@@ -2,3 +2,5 @@ node_modules/
 dist/
 docs/.vuepress/.temp/
 .temp/
+/.temp
+/.temp/
