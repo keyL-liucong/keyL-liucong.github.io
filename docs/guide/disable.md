@@ -29,7 +29,7 @@ You can disable some function and layout on the page by setting the Frontmatter 
 
 This page is an demo that disables the following features:
 
-- Navbar
+- Navbar   
 - Sidebar
 - Breadcrumb
 - Page information
