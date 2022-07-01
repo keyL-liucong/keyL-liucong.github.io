@@ -1,6 +1,6 @@
 {
   "name": "github_study_notes",
-  "version": "2",
+  "version": "1.0.0",
   "description": "1",
   "main": "1",
   "repository": "1",
@@ -8,9 +8,10 @@
   "license": "1",
   "private": true,
   "scripts": {
-    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs"
+    "docs:dev": "vuepress dev docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress/client": "^2.0.0-beta.48",
