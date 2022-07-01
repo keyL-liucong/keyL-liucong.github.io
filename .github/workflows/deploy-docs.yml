@@ -1,41 +1,36 @@
-name: Automatic blog update # 该Action的名字
+# action 的名称
+name: Deploy GitHub Pages
 
-# on:何时触发该事件. 
+# 触发条件：在 push 到 main 分支后
 on:
-  # 在push或pull请求事件时触发工作流，但只针对主分支
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
-  # 允许从Actions选项卡手动运行此工作流
-  workflow_dispatch:
-
-# 工作流运行由一个或多个jobs组成，这些job可以按顺序或并行运行
+# 任务
 jobs:
-  # 此工作流包含一个名为“build-deploy”的job。
-  build-deploy:
-    # 改job运行于什么虚拟机上
-    runs-on: Ubuntu-20.04
-
-    # steps表示将作为job一部分执行的一系列任务
+  build-and-deploy:
+    # 服务器环境：最新版 Ubuntu
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main # 切换分支到main
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-         fetch-depth: 2 
+          persist-credentials: false
 
-      - name: Use Node.js 14.x  #使用nodejs 12.x版本
-        uses: actions/setup-node@v1 
+      # 生成静态文件
+      - name: Build
+        run: npm install && npm run docs:build
+
+      # 部署到 GitHub Pages
+      - name: Deploy
+        # 使用别人写好的一个 action
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          node-version: '14.x'
-
-      - name: install and build #安装以来并打包，执行的是项目我们定义的命令
-        run: npm install && npm run build
-
-      - name: deploy #部署
-        uses: peaceiris/actions-gh-pages@v3 #和上面一样，这里使用的是他人写好的插件库，作用是发布到其他仓库中或者其他分支上，想要具体了解可以在插件库中搜索
-        with:
-          deploy_key: ${{ secrets.DEPLOY_KEYS }} # key 
-          external_repository: keyL-liucong/keyL-liucong.github.io #推送到该仓库中，地址格式为github名称/仓库名
-          publish_branch: main #分支名
-          publish_dir: docs/.vuepress/dist #要推送的内容（打包后的博客文件夹）
+          # 这里的 ACCESS_TOKEN 名字需要和下文中的相对应
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # 打包后的文件部署到哪个分支上
+          BRANCH: gh-pages
+          # 打包后的文件在哪里
+          FOLDER: docs/.vuepress/dist
