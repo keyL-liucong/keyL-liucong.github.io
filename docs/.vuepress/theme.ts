@@ -57,26 +57,6 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: navbar.en,
-
-      // sidebar
-      sidebar: sidebar.en,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
       navbar: navbar.zh,
 
       // sidebar
@@ -90,6 +70,28 @@ export default hopeTheme({
         description: "一个前端开发者",
         intro: "/zh/intro.html",
       },
+
+    },
+
+    /**
+     * Chinese locale config
+     */
+    "/zh/": {
+      // navbar
+      navbar: navbar.en,
+
+      // sidebar
+      sidebar: sidebar.en,
+
+      footer: "Default footer",
+
+      displayFooter: true,
+
+      blog: {
+        description: "A FrontEnd programmer",
+        intro: "/intro.html",
+      },
+
     },
   },
 
