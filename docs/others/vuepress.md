@@ -120,9 +120,9 @@ jobs:
           FOLDER: docs/.vuepress/dist
 ```
 
-### 配置以上.yml文件中ACCESS_TOKEN
+### 配置ACCESS_TOKEN
 
-为保密安全起见，需在github中配置ACCESS_TOKEN。
+为保密安全起见，需在github中配置ACCESS_TOKEN(名字可以随意，只要保持一致即可)。
 
 repository =》 setting =》 Secrets =》 action =》 New repository secret
 
@@ -133,5 +133,11 @@ repository =》 setting =》 Secrets =》 action =》 New repository secret
 
 参考以下文章即可
 [github配置ssh key密钥的方法](https://blog.csdn.net/x550392236/article/details/123069751)
+
+### 完成之后构建成功
+
+![image](./assets/vuepress-7.png)
+
+通过 https://username.github.io/  进行访问即可
 
 
