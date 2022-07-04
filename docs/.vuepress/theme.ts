@@ -3,17 +3,17 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://keyl-liucong.github.io/",
   author: {
     name: "keyL-liucong",
-    url: "https://mrhope.site",
+    url: "https://keyl-liucong.github.io/",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "keyL-liucong/keyL-liucong.github.io",
 
   docsDir: "demo/src",
 

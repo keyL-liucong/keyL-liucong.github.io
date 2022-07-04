@@ -58,6 +58,23 @@ export const zh = navbar([
       },
     ]
   },
+  { 
+    text: "其他", 
+    icon: "creative", 
+    prefix: "/others",
+    children: [
+      {
+        text: "github部署Vuepress",
+        icon: "edit",
+        link: "/vuepress",
+      },
+      {
+        text: "CICD",
+        icon: "edit",
+        link: "/CICD",
+      },
+    ]
+  },
   // { text: "使用指南", icon: "creative", link: "/zh/guide/" },
   // {
   //   text: "博文",

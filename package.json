@@ -17,5 +17,15 @@
     "vue": "^3.2.36",
     "vuepress": "^2.0.0-beta.48",
     "vuepress-theme-hope": "^2.0.0-beta.84"
+  },
+  "dependencies": {
+    "@vuepress/cli": "2.0.0-beta.48",
+    "@vuepress/client": "2.0.0-beta.48",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.48",
+    "sass-loader": "13.0.0",
+    "vue": "3.2.37",
+    "vuepress-theme-hope": "2.0.0-beta.84",
+    "vuepress-vite": "2.0.0-beta.48",
+    "vuepress-webpack": "2.0.0-beta.48"
   }
 }
