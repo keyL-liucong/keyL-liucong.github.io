@@ -1,12 +1,13 @@
 ---
-icon: edit
+icon: vuepress
 # date: 2022-01-09
-# category:
-#   - CategoryA
-#   - CategoryB
-# tag:
-#   - tag A  
-#   - tag B
+category:
+  - 前端
+tag:
+  - 网页  
+  - vuepress
+  - github action
+  - CICD
 ---
 
 # vuepress

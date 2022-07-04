@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: vue
 date: 2022-01-09
 category:
   - CategoryA

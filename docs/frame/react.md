@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: react
 date: 2022-01-09
 category:
   - CategoryA
