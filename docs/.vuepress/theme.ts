@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "keyL-liucong/keyL-liucong.github.io",
+  repo: "keyL-liucong",
 
   docsDir: "demo/src",
 
