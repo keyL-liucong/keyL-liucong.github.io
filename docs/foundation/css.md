@@ -1,6 +1,5 @@
 ---
-icon: edit
-date: 2022-01-09
+icon: css
 category:
   - CategoryA
   - CategoryB
