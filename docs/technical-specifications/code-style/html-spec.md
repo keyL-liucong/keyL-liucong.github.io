@@ -236,4 +236,3 @@ IE 浏览器会混淆元素的 `id` 和 `name` 属性， `document.getElementByI
 <!-- E Comment Text A -->
 ```
 
-（完）

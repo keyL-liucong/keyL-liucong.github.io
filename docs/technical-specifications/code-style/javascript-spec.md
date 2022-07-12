@@ -371,5 +371,3 @@ function numberFormatter(num, digits) {
  * @date 2020-12-29
  */
 ```
-
-（完）

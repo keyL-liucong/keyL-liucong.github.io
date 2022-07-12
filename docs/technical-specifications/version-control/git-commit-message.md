@@ -248,4 +248,3 @@ The removed `inject` wasn't generaly useful for directives so there should be no
 * [Angular 规范文档](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit)
 * [约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
 
-（完）

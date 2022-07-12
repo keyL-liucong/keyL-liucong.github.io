@@ -91,18 +91,18 @@ export const zh = navbar([
       }
     ]
   },
-  { 
-    text: "性能优化", 
-    icon: "creative", 
-    prefix: "/performance",
-    children: [
-      {
-        text: "webpack",
-        icon: "edit",
-        link: "/optimizing",
-      }
-    ]
-  },
+  // { 
+  //   text: "性能优化", 
+  //   icon: "creative", 
+  //   prefix: "/performance",
+  //   children: [
+  //     {
+  //       text: "webpack",
+  //       icon: "edit",
+  //       link: "/optimizing",
+  //     }
+  //   ]
+  // },
   { 
     text: "其他", 
     icon: "creative", 

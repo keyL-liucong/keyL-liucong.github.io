@@ -26,6 +26,22 @@ export const zh = sidebar({
       children: ["vuepress","CICD"]
     },
   ],
+  "/technical-specifications/version-control/": [
+    {
+      text: "版本控制",
+      icon: "git",
+      link: "/technical-specifications/version-control/",
+      children: ["version-number", "git-workflow", "git-commit-message"]
+    },
+  ],
+  "/technical-specifications/code-style/": [
+    {
+      text: "代码风格",
+      icon: "code",
+      link: "/technical-specifications/code-style/",
+      children: ["html-spec", "css-spec", "javascript-spec", "vuejs-spec","code-review"]
+    },
+  ]
 });
 
 // export const zh = sidebar({
