@@ -1,61 +1,106 @@
 import { navbar } from "vuepress-theme-hope";
 export const zh = navbar([
   "/",
-  "/home",
+  // "/home",
+  {
+    text: "技术规范",
+    icon: "code",
+    prefix: "/technical-specifications/",
+    children: [
+      "version-control/",
+      "code-style/",
+      "apis-style",
+      "document-style"
+    ],
+  },
   { 
-    text: "前端基础", 
+    text: "基础", 
     icon: "creative", 
     prefix: "/foundation",
     children: [
       {
         text: "html",
-        icon: "edit",
+        icon: "html",
         link: "/html",
       },
       {
         text: "css",
-        icon: "edit",
+        icon: "css",
         link: "/css",
       },
       {
         text: "js",
-        icon: "edit",
+        icon: "javascript",
         link: "/js",
       },
     ]
   },
   { 
-    text: "前端框架", 
+    text: "框架", 
     icon: "creative", 
     prefix: "/frame",
     children: [
       {
         text: "vue",
-        icon: "edit",
+        icon: "vue",
         link: "/vue",
       },
       {
         text: "react",
-        icon: "edit",
+        icon: "react",
         link: "/react",
+      },
+      {
+        text: "angular",
+        icon: "angular",
+        link: "/angular",
       },
     ]
   },
   { 
-    text: "其他", 
+    text: "工程化", 
     icon: "creative", 
-    prefix: "/others",
+    prefix: "/engineering",
     children: [
       {
-        text: "github部署Vuepress",
-        icon: "edit",
-        link: "/vuepress",
+        text: "webpack",
+        icon: "note",
+        link: "/webpack",
       },
       {
-        text: "CICD",
-        icon: "edit",
-        link: "/CICD",
+        text: "vite",
+        icon: "note",
+        link: "/vite",
       },
+      // {
+      //   text: "rollup",
+      //   icon: "rollup",
+      //   link: "/rollup",
+      // },
+    ]
+  },
+  { 
+    text: "性能优化", 
+    icon: "creative", 
+    prefix: "/performance",
+    children: [
+      {
+        text: "webpack",
+        icon: "edit",
+        link: "/optimizing",
+      }
+    ]
+  },
+  { 
+    text: "性能优化", 
+    icon: "creative", 
+    prefix: "/performance",
+    children: [
+      {
+        text: "webpack",
+        icon: "edit",
+        link: "/optimizing",
+      }
     ]
   },
   { 

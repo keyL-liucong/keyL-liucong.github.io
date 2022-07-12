@@ -12,11 +12,11 @@ export const zh = sidebar({
       children: ["html", "css", "js"],
     },
     { 
-      text: "前端框架", 
+      text: "框架", 
       icon: "creative", 
       prefix: "frame/",
       collapsable: true,
-      children: ["vue", "react"],
+      children: ["Vue", "React", "Angular"],
     },
     { 
       text: "其他", 

@@ -3,7 +3,7 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 主页
 heroImage: /logo.svg
 heroText: Hello W
 heroFullScreen: true
