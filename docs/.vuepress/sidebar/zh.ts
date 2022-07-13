@@ -91,9 +91,33 @@ export const zh = sidebar({
       link: "/engineering/vite/",
     },
   ],
+  // 进阶 前端 浏览器工作原理
+  "/advanced/browser/": [
+    {
+      text: "浏览器工作原理",
+      icon: "chrome",
+      link: "/advanced/browser/",
+      children: ["browser-macro-knowledge","kernel-and-javascript-engine","execution-details-of-rendering-process","execution-details-of-v8-engine"]
+    },
+  ],
+  // 进阶 运维 nginx
+  "/advanced/nginx/": [
+    {
+      text: "Nginx 用法整理",
+      icon: "note",
+      link: "/advanced/nginx/",
+      children: ["forward-proxy-and-reverse-proxy","load-balancing","installation-of-nginx","uninstallation-of-nginx","common-commands","set-auto-start-after-server-reboot","config-file-params-explanation","config-file-generic-template","ngx-http-access-module","ngx-http-autoindex-module","ngx-http-auth-basic-module","deploy-https-security-auth","traffic-limiting-modules"]
+    },
+    {
+      text: "Nginx 部署方案",
+      icon: "note",
+      link: "/advanced/nginx/",
+      children: ["practice-in-front-end-separation-project"]
+    },
+  ],
 });
 
-// export const zh = sidebar({
+// export const zh = sidebar({ 
 //   "/": [
 //     "",
 //     "home",

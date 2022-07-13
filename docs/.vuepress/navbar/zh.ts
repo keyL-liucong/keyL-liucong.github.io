@@ -44,16 +44,28 @@ export const zh = navbar([
     ]
   },
   { 
-    text: "性能优化", 
-    icon: "creative", 
-    prefix: "/performance",
+    text: "进阶", 
+    icon: "advance", 
+    prefix: "/advanced/",
     children: [
+      // { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
       {
-        text: "webpack",
-        icon: "edit",
-        link: "/optimizing",
-      }
-    ]
+        text: "前端",
+        // link: "performance-optimizing",
+        children: ["performance-optimizing/","browser/"],
+      },
+      {
+        text: "运维",
+        children: ["nginx/", "jenkins/", "docker/"],
+      },
+    ],
+    // children: [
+    //   {
+    //     text: "webpack",
+    //     icon: "edit",
+    //     link: "/optimizing",
+    //   }
+    // ]
   },
   // { 
   //   text: "性能优化", 
