@@ -21,6 +21,7 @@ export const zh = navbar([
       "html/",
       "css/",
       "javascript/",
+      "typescript/",
     ],
   },
   { 

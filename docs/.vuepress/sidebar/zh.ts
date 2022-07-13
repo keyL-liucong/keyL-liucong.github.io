@@ -29,6 +29,14 @@ export const zh = sidebar({
       children: ["data-types", "stack-and-heap", "execution-context","scope","closure","this-keyword","prototype-and-prototype-chain","gc","sync-and-async","event-loop","shallow-clone-and-deep-clone","function-currying","to-be-continued"]
     },
   ],
+  "/foundation/typescript/": [
+    {
+      text: "typescript",
+      icon: "typescript",
+      link: "/foundation/typescript/",
+      children: ["data-types-introduction", "boolean-number-string", "array-and-tuple","union-and-literal","enum","any-and-unknow","void-undefined-never","interface","function-type","generics"]
+    },
+  ],
   "/technical-specifications/version-control/": [
     {
       text: "版本控制",
