@@ -36,23 +36,10 @@ export const zh = navbar([
   { 
     text: "工程化", 
     icon: "creative", 
-    prefix: "/engineering",
+    prefix: "/engineering/",
     children: [
-      {
-        text: "webpack",
-        icon: "note",
-        link: "/webpack",
-      },
-      {
-        text: "vite",
-        icon: "note",
-        link: "/vite",
-      },
-      // {
-      //   text: "rollup",
-      //   icon: "rollup",
-      //   link: "/rollup",
-      // },
+      "webpack5/",
+      "vite/"
     ]
   },
   { 

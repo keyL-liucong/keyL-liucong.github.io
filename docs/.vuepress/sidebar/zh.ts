@@ -66,7 +66,21 @@ export const zh = sidebar({
       text: "angular",
       icon: "angular",
       link: "/frame/angular/",
-      // children: ["react-jsx"]
+    },
+  ],
+  "/engineering/webpack5/": [
+    {
+      text: "webpack5",
+      icon: "tool",
+      link: "/engineering/webpack5/",
+      children: ["core-concept","basic-config","advanced-config","performance-optimization-in-build","performance-optimization-in-output","generic-template"]
+    },
+  ],
+  "/engineering/vite/": [
+    {
+      text: "vite",
+      icon: "note",
+      link: "/engineering/vite/",
     },
   ],
 });
