@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o}from"./app.0faff1f5.js";const r={};function c(i,_){return t(),o("div")}var a=e(r,[["render",c],["__file","optimizing.html.vue"]]);export{a as default};
