@@ -59,31 +59,17 @@ export const zh = navbar([
         children: ["nginx/", "jenkins/", "docker/"],
       },
     ],
-    // children: [
-    //   {
-    //     text: "webpack",
-    //     icon: "edit",
-    //     link: "/optimizing",
-    //   }
-    // ]
   },
-  // { 
-  //   text: "性能优化", 
-  //   icon: "creative", 
-  //   prefix: "/performance",
-  //   children: [
-  //     {
-  //       text: "webpack",
-  //       icon: "edit",
-  //       link: "/optimizing",
-  //     }
-  //   ]
-  // },
   { 
     text: "其他", 
     icon: "others", 
-    prefix: "/others",
+    prefix: "/others/",
     children: [
+      {
+        text: "工具",
+        // link: "performance-optimizing",
+        children: ["vscode/"],
+      },
       {
         text: "github部署Vuepress",
         icon: "edit",
