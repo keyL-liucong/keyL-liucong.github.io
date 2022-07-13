@@ -26,7 +26,7 @@ export const zh = navbar([
   },
   { 
     text: "框架", 
-    icon: "creative", 
+    icon: "frame", 
     prefix: "/frame/",
     children: [
       "vuejs/",
@@ -36,7 +36,7 @@ export const zh = navbar([
   },
   { 
     text: "工程化", 
-    icon: "creative", 
+    icon: "list", 
     prefix: "/engineering/",
     children: [
       "webpack5/",
@@ -81,7 +81,7 @@ export const zh = navbar([
   // },
   { 
     text: "其他", 
-    icon: "creative", 
+    icon: "others", 
     prefix: "/others",
     children: [
       {
