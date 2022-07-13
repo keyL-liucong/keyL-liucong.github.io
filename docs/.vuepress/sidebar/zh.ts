@@ -44,7 +44,31 @@ export const zh = sidebar({
       link: "/technical-specifications/code-style/",
       children: ["html-spec", "css-spec", "javascript-spec", "vuejs-spec","code-review"]
     },
-  ]
+  ],
+  "/frame/vuejs/": [
+    {
+      text: "vuejs",
+      icon: "vue",
+      link: "/frame/vuejs/",
+      children: ["basic-use", "advanced-use", "reactive-data", "virtual-dom-and-diff","template-compile","component-render-and-update","vue-router"]
+    },
+  ],
+  "/frame/react/": [
+    {
+      text: "react",
+      icon: "react",
+      link: "/frame/react/",
+      children: ["react-jsx"]
+    },
+  ],
+  "/frame/angular/": [
+    {
+      text: "angular",
+      icon: "angular",
+      link: "/frame/angular/",
+      // children: ["react-jsx"]
+    },
+  ],
 });
 
 // export const zh = sidebar({

@@ -22,44 +22,15 @@ export const zh = navbar([
       "css/",
       "javascript/",
     ],
-    // children: [
-    //   {
-    //     text: "html",
-    //     icon: "html",
-    //     link: "/html",
-    //   },
-    //   {
-    //     text: "css",
-    //     icon: "css",
-    //     link: "/css",
-    //   },
-    //   {
-    //     text: "js",
-    //     icon: "javascript",
-    //     link: "/js",
-    //   },
-    // ]
   },
   { 
     text: "框架", 
     icon: "creative", 
-    prefix: "/frame",
+    prefix: "/frame/",
     children: [
-      {
-        text: "vue",
-        icon: "vue",
-        link: "/vue",
-      },
-      {
-        text: "react",
-        icon: "react",
-        link: "/react",
-      },
-      {
-        text: "angular",
-        icon: "angular",
-        link: "/angular",
-      },
+      "vuejs/",
+      "react/",
+      "angular/"
     ]
   },
   { 
