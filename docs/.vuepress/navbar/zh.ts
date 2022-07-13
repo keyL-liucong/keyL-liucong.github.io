@@ -16,24 +16,29 @@ export const zh = navbar([
   { 
     text: "基础", 
     icon: "creative", 
-    prefix: "/foundation",
+    prefix: "/foundation/",
     children: [
-      {
-        text: "html",
-        icon: "html",
-        link: "/html",
-      },
-      {
-        text: "css",
-        icon: "css",
-        link: "/css",
-      },
-      {
-        text: "js",
-        icon: "javascript",
-        link: "/js",
-      },
-    ]
+      "html/",
+      "css/",
+      "javascript/",
+    ],
+    // children: [
+    //   {
+    //     text: "html",
+    //     icon: "html",
+    //     link: "/html",
+    //   },
+    //   {
+    //     text: "css",
+    //     icon: "css",
+    //     link: "/css",
+    //   },
+    //   {
+    //     text: "js",
+    //     icon: "javascript",
+    //     link: "/js",
+    //   },
+    // ]
   },
   { 
     text: "框架", 

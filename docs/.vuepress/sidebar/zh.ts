@@ -4,26 +4,29 @@ export const zh = sidebar({
   "/": [
     "",
     "home",
-    { 
-      text: "前端基础", 
-      icon: "creative", 
-      prefix: "foundation/",
-      collapsable: true,
-      children: ["html", "css", "js"],
+  ],
+  "/foundation/html/": [
+    {
+      text: "HTML",
+      icon: "html",
+      link: "/foundation/html/",
+      children: ["html-basic-structure", "semantic-elements", "to-be-continued"]
     },
-    { 
-      text: "框架", 
-      icon: "creative", 
-      prefix: "frame/",
-      collapsable: true,
-      children: ["Vue", "React", "Angular"],
+  ],
+  "/foundation/css/": [
+    {
+      text: "CSS",
+      icon: "css",
+      link: "/foundation/css/",
+      children: ["ways-to-insert-css", "selectors-and-selector-priority", "pseudo-elements-and-pseudo-classes","length-and-units","box-model","position-property","float-property","bfc","layout","flexbox","grid","to-be-continued"]
     },
-    { 
-      text: "其他", 
-      icon: "creative", 
-      prefix: "others/",
-      collapsable: true,
-      children: ["vuepress","CICD"]
+  ],
+  "/foundation/javascript/": [
+    {
+      text: "javascript",
+      icon: "git",
+      link: "/foundation/javascript/",
+      children: ["data-types", "stack-and-heap", "execution-context","scope","closure","this-keyword","prototype-and-prototype-chain","gc","sync-and-async","event-loop","shallow-clone-and-deep-clone","function-currying","to-be-continued"]
     },
   ],
   "/technical-specifications/version-control/": [
