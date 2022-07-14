@@ -4,7 +4,7 @@ category:
 tag:
   - nginx  
 ---
-# Nginx
+# nginx
 
 > 本系列以 Nginx 1.18.0 作为安装版本进行知识点梳理，该版本目前属于 Legacy versions（老版本的稳定版）。
 

@@ -157,7 +157,7 @@ export const zh = sidebar({
     {
       text: "简易指南",
       icon: "guide",
-      link: "/others/vscode/guide/",
+      prefix: "guide/",
       children: [
         "basic",
         "customization",
@@ -175,51 +175,47 @@ export const zh = sidebar({
     "settings",
     "shortcut-key",
   ],
+  // 其他 工具 git
+  "/others/git/": [
+    "install",
+    "intro",
+    "create-repo",
+    "status",
+    "recall",
+    "reset",
+    "working-directory",
+    "change",
+    "remote",
+    "branch",
+    "tag",
+    "ignore",
+    "working",
+    "custom",
+  ],
+  // 其他 工具 git
+  "/others/github/": [
+    "intro",
+    "pr",
+    "semantic",
+    "pages",
+    "speedup",
+    "token",
+    {
+      text: "Github Actions",
+      icon: "actions",
+      prefix: "actions/",
+      children: [
+        "",
+        "intro",
+        "config",
+        {
+          text: "常见 Actions",
+          icon: "actions",
+          collapsable: true,
+          children: ["checkout", "cache", "gh-pages-deploy"],
+        },
+      ],
+    },
+    "deploy",
+  ],
 });
-
-// export const zh = sidebar({
-//   "/": [
-//     "",
-//     "home",
-//     "slide",  // 幻灯片
-//     {
-//       text: "如何使用",
-//       icon: "creative",
-//       prefix: "guide/",
-//       link: "guide/",
-//       children: "structure",
-//     },
-//     {
-//       text: "文章",
-//       icon: "note",
-//       prefix: "posts/",
-//       children: [
-//         {
-//           text: "文章 1-4",
-//           icon: "note",
-//           collapsable: true,
-//           prefix: "article/",
-//           children: ["article1", "article2", "article3", "article4"],
-//         },
-//         {
-//           text: "文章 5-12",
-//           icon: "note",
-//           children: [
-//             {
-//               text: "文章 5-8",
-//               icon: "note",
-//               collapsable: true,
-//               prefix: "article/",
-//               children: ["article5", "article6", "article7", "article8"],
-//             },
-//             {
-//               text: "文章 9-12",
-//               icon: "note",
-//               children: ["article9", "article10", "article11", "article12"],
-//             },
-//           ],
-//         },
-//       ],
-//     },
-//   ],
-// });

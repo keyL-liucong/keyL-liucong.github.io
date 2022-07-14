@@ -69,7 +69,7 @@ export const zh = navbar([
       {
         text: "工具",
         // link: "performance-optimizing",
-        children: ["vscode/"],
+        children: ["vscode/","git/","github"],
       },
       {
         text: "github部署Vuepress",
