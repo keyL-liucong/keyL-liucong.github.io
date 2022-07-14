@@ -1,6 +1,5 @@
 ---
 icon: vuepress
-# date: 2022-01-09
 category:
   - 前端
 tag:
@@ -10,7 +9,7 @@ tag:
   - CICD
 ---
 
-# vuepress
+# GitHub功能部署vuePress
 
 使用 GitHub Actions 将 VuePress 自动部署到 Github Pages。
 

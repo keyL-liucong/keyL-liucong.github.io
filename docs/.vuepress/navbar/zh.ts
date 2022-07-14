@@ -58,7 +58,7 @@ export const zh = navbar([
       },
       {
         text: "运维",
-        children: ["nginx/", "jenkins/", "docker/"],
+        children: ["CICD/","nginx/", "jenkins/", "docker/"],
       },
     ],
   },
@@ -71,16 +71,6 @@ export const zh = navbar([
         text: "工具",
         // link: "performance-optimizing",
         children: ["vscode/","git/","github"],
-      },
-      {
-        text: "github部署Vuepress",
-        icon: "edit",
-        link: "/vuepress",
-      },
-      {
-        text: "CICD",
-        icon: "edit",
-        link: "/CICD",
       },
     ]
   },

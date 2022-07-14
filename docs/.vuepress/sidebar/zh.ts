@@ -309,5 +309,6 @@ export const zh = sidebar({
       ],
     },
     "deploy",
+    "vuepress"
   ],
 });
