@@ -32,7 +32,8 @@ export const zh = navbar([
     children: [
       "vuejs/",
       "react/",
-      "angular/"
+      "angular/",
+      "mini-app/"
     ]
   },
   { 
