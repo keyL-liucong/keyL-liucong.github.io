@@ -199,4 +199,4 @@ server 中的参数配置项其实有很多，它们可以实现一些丰富的�
 
 * [Full Example Configuration](https://www.nginx.com/resources/wiki/start/topics/examples/full/ "Full Example Configuration")
 
-（完）
+

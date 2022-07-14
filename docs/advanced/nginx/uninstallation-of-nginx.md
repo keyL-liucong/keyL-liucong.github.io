@@ -64,4 +64,4 @@ find / -name nginx
 ...
 ```
 
-（完）
+

@@ -157,4 +157,4 @@ H5 history 模式是用 url 规范的路由，但跳转时不刷新页面。
 
 H5 history 模式需要 server 端配合，可参考[后端配置例子](https://router.vuejs.org/zh/guide/essentials/history-mode.html#后端配置例子)。无论访问哪个路由，都返回 `index.html` 页面，再由前端通过 `history.pushState` 的方式触发路由的切换。
 
-（完）
+

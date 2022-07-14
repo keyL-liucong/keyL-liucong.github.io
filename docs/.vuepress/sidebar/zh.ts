@@ -93,7 +93,7 @@ export const zh = sidebar({
       text: "vuejs",
       icon: "vue",
       link: "/frame/vuejs/",
-      children: ["basic-use", "advanced-use", "reactive-data", "virtual-dom-and-diff", "template-compile", "component-render-and-update", "vue-router"]
+      children: ["basic-use", "advanced-use", "reactive-data", "virtual-dom-and-diff", "diff", "template-compile", "component-render-and-update", "vue-router"]
     },
   ],
   "/frame/react/": [

@@ -108,4 +108,4 @@ person.push(true);
 // error: Argument of type 'true' is not assignable to parameter of type 'string | number'.
 ```
 
-（完）
+

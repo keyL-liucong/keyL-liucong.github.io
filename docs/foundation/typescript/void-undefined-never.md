@@ -86,4 +86,4 @@ function whileLoop(): never {
 
 在实际项目开发过程中，`never` 类型可以用来控制逻辑流程，但这个类型其实并不常用。
 
-（完）
+

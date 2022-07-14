@@ -230,4 +230,4 @@ observer(data)
 data.nums.push(4) // 监听数组
 ```
 
-（完）
+

@@ -25,4 +25,4 @@ TypeScript 与普通 JavaScript 最大的区别就是对类型的强定义，它
 * Nullable  可空类型
 * Literal   预定义文件类型
 
-（完）
+

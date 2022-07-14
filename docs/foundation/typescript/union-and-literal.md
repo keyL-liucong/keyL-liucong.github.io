@@ -115,4 +115,4 @@ console.log(mergeString); // 'helloworld'
 
 上述代码中，`merge` 函数的第三个参数 `resultType` 是一个字面量类型，它定义为两个字符串值。根据 `resultType` 两种特殊的取值将输出两种不同的结果。
 
-（完）
+

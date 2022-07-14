@@ -90,4 +90,4 @@ Vue.component('heading', {
 
 在有些复杂情况中，不能用 `template`，可以考虑用 `render`。
 
-（完）
+

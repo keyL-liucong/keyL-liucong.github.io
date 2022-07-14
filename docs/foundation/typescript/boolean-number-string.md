@@ -37,4 +37,4 @@ let desc: string = `Hello, my name is ${name}.
 I'll be ${age + 1} years old next month.`;
 ```
 
-（完）
+

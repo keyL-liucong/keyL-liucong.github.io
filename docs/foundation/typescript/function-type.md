@@ -214,4 +214,4 @@ function reverse(x: number | string): number | string | void {
 
 注意，TypeScript 会优先从最前面的函数定义开始匹配，所以多个函数定义如果有包含关系，需要优先把精确的定义写在前面。
 
-（完）
+
