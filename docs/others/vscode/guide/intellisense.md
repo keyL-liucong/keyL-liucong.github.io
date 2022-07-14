@@ -95,6 +95,4 @@ tag:
 
 IntelliSense 会为 package.json 文件提供智能提示。
 
-## Emmet 语法
 
-支持 [Emmet 语法](../../../code/website/emmet/README.md)。

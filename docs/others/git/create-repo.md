@@ -61,15 +61,11 @@ Initialized empty Git repository in /users/hope-studio/learngit/.git/
 
 因为文本是有编码的，比如中文有常用的 GBK 编码，日文有 Shift_JIS 编码，如果没有历史遗留问题，强烈建议使用标准的 UTF-8 编码，所有语言使用同一种编码，既没有冲突，又被所有平台所支持。
 
-- 具体详情请见 [文件编码](../../code/basic/encoding.md)
-
 :::
 
 ::: warning
 
 千万不要使用 Windows 自带的记事本编辑任何文本文件。
-
-- 具体详情请见 [记事本遗留问题](../../code/windows/notepad.md)
 
 :::
 

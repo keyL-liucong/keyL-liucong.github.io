@@ -138,7 +138,7 @@ tag:
 
    - ssh-keygen 用来生成一堆密钥，作为您的身份识别信息，您可以放心的把公钥交给别人，留下自己的私钥。
 
-   - `.ssh` 目录是默认隐藏的。Win10 查看隐藏文件详见 [显示隐藏的文件](../../code/windows/hidden-file.md)
+   - `.ssh` 目录是默认隐藏的。
 
    :::
 
@@ -148,7 +148,7 @@ tag:
 
    :::
 
-1. 打开 [GitHub](https://github.com) 并选择 "Sign in" 注册自己的账号。
+2. 打开 [GitHub](https://github.com) 并选择 "Sign in" 注册自己的账号。
 
    ![GitHub 界面简介](./assets/github.png)
 

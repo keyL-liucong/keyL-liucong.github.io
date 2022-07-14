@@ -24,12 +24,6 @@ tag:
 
 - GitHub 做了一个官方市场，可以搜索到他人提交的 actions。另外， [awesome actions](https://github.com/sdras/awesome-actions) 仓库收集了很多有用的 actions。
 
-::: info 持续集成
-
-关于持续集成 (CI) 的概念与介绍，详见 [基础 → 持续集成](../../basic/ci.md)
-
-:::
-
 ## 简介
 
 GitHub Actions 帮助您自动完成软件开发周期内的任务。 GitHub Actions 是事件驱动的，意味着您可以在指定事件发生后运行一系列命令。 例如，每次有人为仓库创建拉取请求时，您都可以自动运行命令来执行软件测试脚本。
