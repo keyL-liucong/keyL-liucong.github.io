@@ -20,6 +20,7 @@ export const zh = navbar([
     children: [
       "html/",
       "css/",
+      "es6/",
       "javascript/",
       "typescript/",
     ],

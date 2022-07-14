@@ -1,5 +1,4 @@
 ---
-icon: chrome
 category:
   - safari browser
 tag:

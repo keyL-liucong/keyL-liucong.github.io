@@ -1,5 +1,4 @@
 ---
-icon: nginx
 category:
   - nginx
 tag:
