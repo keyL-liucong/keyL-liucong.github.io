@@ -242,6 +242,8 @@ export const zh = sidebar({
       children: ["practice-in-front-end-separation-project"]
     },
   ],
+  // 进阶 运维 nginx
+  "/advanced/nodejs/": "structure",
   // 其他 工具 vscode
   "/others/vscode/": [
     "install",

@@ -12,12 +12,6 @@ tag:
 
 <!-- more -->
 
-::: info
-
-有关 VS Code 使用教程请[访问这里](../../software/vscode/README.md)
-
-:::
-
 ## 运行和调试 JavaScript
 
 在 VS Code 中，我们可以非常方便地运行 JavaScript 文件。

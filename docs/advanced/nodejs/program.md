@@ -19,8 +19,6 @@ tag:
 
 千万不要使用 Windows 自带的记事本编辑任何文本文件。
 
-- 具体详情请见 [记事本遗留问题](../windows/notepad.md)
-
 :::
 
 如果您的电脑上已经安装了**Sublime Text**，或者**Notepad++**，也可以用来编写 JavaScript 代码，注意用 UTF-8 格式保存。
