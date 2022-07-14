@@ -60,6 +60,10 @@ export const zh = navbar([
         text: "运维",
         children: ["CICD/","nginx/", "jenkins/", "docker/"],
       },
+      {
+        text: "服务端",
+        children: ["nodejs/"],
+      },
     ],
   },
   { 

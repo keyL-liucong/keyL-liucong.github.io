@@ -1,5 +1,6 @@
 ---
 icon: jenkins
+sidebar: false
 # date: 2022-01-09
 category:
   - 运维
@@ -9,7 +10,7 @@ tag:
   - CICD
 ---
 
-# CICD
+# CICD实践
 参考文章
 [保姆级教学 Jenkins 部署前端项目](https://juejin.cn/post/7102360505313918983)
 ## CICD实践过程
