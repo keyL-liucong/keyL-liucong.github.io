@@ -6,12 +6,6 @@ category: 小程序
 star: true
 ---
 
-::: tip
-
-在开发小程序之前。应当掌握 [HTML](../website/html/README.md)、[CSS](../website/css/README.md)、[JavaScript 基础](../language/js/guide/README.md) 以及 [ES6](../language/js/es6/README.md)。
-
-:::
-
 <!-- more -->
 
 ## 小程序基础简介

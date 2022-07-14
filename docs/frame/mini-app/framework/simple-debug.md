@@ -155,11 +155,6 @@ isSet: true
   isSet: true;
 }
 ```
-
-### 如何打开或编辑 json
-
-推荐使用 VS Code，具体详见[VS Code 简单介绍](../../../software/vscode/simple.md)。
-
 ### json 中的值
 
 合法的值大家编辑用到的一共有五种:
