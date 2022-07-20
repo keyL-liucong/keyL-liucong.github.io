@@ -23,7 +23,7 @@ export default defineUserConfig({
     docsearchPlugin({
       // algolia 搜索 获取appId  apiKey
       appId: "9VF9M9DMQS",
-      apiKey: "e9231a5c984a0668a01c5bb97ef76578",
+      apiKey: "107f06865a18849452dc649e91e9f0d2",
       indexName: "keyl-liucong",
       // 搜索国际化
       locales: {
