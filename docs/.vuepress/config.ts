@@ -21,9 +21,10 @@ export default defineUserConfig({
   theme,
   plugins: [
     docsearchPlugin({
-      appId: "LDBQGQC8Q9",
-      apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-      indexName: "mrhope",
+      // algolia 搜索 获取appId  apiKey
+      appId: "9VF9M9DMQS",
+      apiKey: "e9231a5c984a0668a01c5bb97ef76578",
+      indexName: "keyl-liucong",
       // 搜索国际化
       locales: {
         "/": {
