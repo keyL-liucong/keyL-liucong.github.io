@@ -73,9 +73,9 @@ export const zh = navbar([
     children: [
       {
         text: "工具",
-        // link: "performance-optimizing",
         children: ["vscode/","git/","github"],
       },
+      "records/"
     ]
   },
 ]);

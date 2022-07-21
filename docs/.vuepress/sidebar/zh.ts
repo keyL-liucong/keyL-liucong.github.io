@@ -313,4 +313,7 @@ export const zh = sidebar({
     "deploy",
     "vuepress"
   ],
+  "/others/records/": [
+    "docsearchPlugin"
+  ]
 });
