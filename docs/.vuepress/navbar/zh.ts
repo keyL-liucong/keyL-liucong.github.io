@@ -42,7 +42,9 @@ export const zh = navbar([
     prefix: "/engineering/",
     children: [
       "webpack5/",
-      "vite/"
+      "vite/",
+      "esbuild",
+      "rollup"
     ]
   },
   { 

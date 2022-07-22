@@ -66,10 +66,55 @@ export const zh = sidebar({
   ],
   "/foundation/typescript/": [
     {
-      text: "typescript",
+      text: "简介",
       icon: "typescript",
-      link: "/foundation/typescript/",
-      children: ["data-types-introduction", "boolean-number-string", "array-and-tuple", "union-and-literal", "enum", "any-and-unknow", "void-undefined-never", "interface", "function-type", "generics"]
+      prefix: 'introduction/',
+      children: [
+        'what-is-typescript',
+        'get-typescript',
+        'hello-typescript',
+      ],
+    },
+    {
+      text: "基础",
+      icon: "typescript",
+      prefix: 'basics/',
+      collapsable:true,
+      children: [
+        'primitive-data-types',
+        'any',
+        'type-inference',
+        'union-types',
+        'type-of-object-interfaces',
+        'type-of-array',
+        'type-of-function',
+        'type-assertion',
+        'declaration-files',
+        'built-in-objects',
+      ],
+    },
+    {
+      text: "进阶",
+      icon: "typescript",
+      prefix: 'advanced/',
+      collapsable:true,
+      children: [
+        'type-aliases',
+        'string-literal-types',
+        'tuple',
+        'enum',
+        'class',
+        'class-and-interfaces',
+        'generics',
+        'declaration-merging',
+        'further-reading',
+      ],
+    },
+    {
+      text: "工程",
+      icon: "typescript",
+      prefix: 'engineering/',
+      children: ['lint', 'compiler-options'],
     },
   ],
   "/technical-specifications/version-control/": [
