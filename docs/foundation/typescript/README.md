@@ -10,7 +10,6 @@ tag:
 
 ![typescript](./assets/typescript.png)
 
-[![Actions Status](https://github.com/xcatliu/typescript-tutorial/workflows/gh-pages/badge.svg)](https://github.com/xcatliu/typescript-tutorial/actions)
 [在线运行typescript](https://www.typescriptlang.org/play)
 
 从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript。
