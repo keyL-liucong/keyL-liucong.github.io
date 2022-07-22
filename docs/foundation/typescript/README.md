@@ -8,6 +8,8 @@ tag:
 
 # TypeScript 入门教程
 
+![typescript](./assets/typescript.png)
+
 [![Actions Status](https://github.com/xcatliu/typescript-tutorial/workflows/gh-pages/badge.svg)](https://github.com/xcatliu/typescript-tutorial/actions)
 [在线运行typescript](https://www.typescriptlang.org/play)
 
