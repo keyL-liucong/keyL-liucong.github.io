@@ -2,17 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zh = navbar([
   "/",
   // "/home",
-  {
-    text: "技术规范",
-    icon: "code",
-    prefix: "/technical-specifications/",
-    children: [
-      "version-control/",
-      "code-style/",
-      "apis-style",
-      "document-style"
-    ],
-  },
+  "/summary",
   { 
     text: "基础", 
     icon: "creative", 
@@ -41,10 +31,38 @@ export const zh = navbar([
     icon: "list", 
     prefix: "/engineering/",
     children: [
-      "webpack5/",
-      "vite/",
-      "esbuild",
-      "rollup"
+      {
+        text: "模块化",
+        icon: 'module',
+        prefix: "modules/",
+        children: ["AMD/","CMD/","CommonJs/","ESM/","UMD/"],
+      },
+      {
+        text: "规范化",
+        icon: "code",
+        prefix: "normalization/",
+        children: [
+          "version-control/",
+          "code-style/",
+          "apis-style",
+          "document-style"
+        ],
+      },
+      {
+        text: "自动化",
+        prefix: "automation/",
+        children: [
+          "structure/",
+          "deploy/"
+        ],
+      },
+      {
+        text: "工具",
+        prefix: "tools/",
+        children: [
+          "webpack5/"
+        ],
+      },
     ]
   },
   { 
@@ -52,18 +70,18 @@ export const zh = navbar([
     icon: "advance", 
     prefix: "/advanced/",
     children: [
-      // { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
+      {
+        text: "计算机基础",
+        // link: "performance-optimizing",
+        children: ["fundamentals-of-computer/","browser/"],
+      },
       {
         text: "前端",
         // link: "performance-optimizing",
-        children: ["performance-optimizing/","browser/"],
+        children: ["performance-optimizing/","design-mode/","technical-solutions/"],
       },
       {
-        text: "运维",
-        children: ["CICD/","nginx/", "jenkins/", "docker/"],
-      },
-      {
-        text: "服务端",
+        text: "其他",
         children: ["nodejs/"],
       },
     ],
@@ -77,7 +95,12 @@ export const zh = navbar([
         text: "工具",
         children: ["vscode/","git/","github"],
       },
-      "records/"
+      {
+        text: "泛客户端",
+        children: ["mobile-terminal/","desktop-applications/","mini-app","fast-application/"],
+      },
+      "records/",
+      "interview/"
     ]
   },
 ]);

@@ -79,7 +79,7 @@ export const zh = sidebar({
       text: "基础",
       icon: "typescript",
       prefix: 'basics/',
-      collapsable:true,
+      collapsable: true,
       children: [
         'primitive-data-types',
         'any',
@@ -97,7 +97,7 @@ export const zh = sidebar({
       text: "进阶",
       icon: "typescript",
       prefix: 'advanced/',
-      collapsable:true,
+      collapsable: true,
       children: [
         'type-aliases',
         'string-literal-types',
@@ -115,22 +115,6 @@ export const zh = sidebar({
       icon: "typescript",
       prefix: 'engineering/',
       children: ['lint', 'compiler-options'],
-    },
-  ],
-  "/technical-specifications/version-control/": [
-    {
-      text: "版本控制",
-      icon: "git",
-      link: "/technical-specifications/version-control/",
-      children: ["version-number", "git-workflow", "git-commit-message"]
-    },
-  ],
-  "/technical-specifications/code-style/": [
-    {
-      text: "代码风格",
-      icon: "code",
-      link: "/technical-specifications/code-style/",
-      children: ["html-spec", "css-spec", "javascript-spec", "vuejs-spec", "code-review"]
     },
   ],
   "/frame/vuejs/": [
@@ -156,7 +140,105 @@ export const zh = sidebar({
       link: "/frame/angular/",
     },
   ],
-  "/frame/mini-app/": [
+
+  "/engineering/webpack5/": [
+    {
+      text: "webpack5",
+      icon: "tool",
+      link: "/engineering/webpack5/",
+      children: ["core-concept", "basic-config", "advanced-config", "performance-optimization-in-build", "performance-optimization-in-output", "generic-template"]
+    },
+  ],
+  "/engineering/vite/": [
+    {
+      text: "vite",
+      icon: "note",
+      link: "/engineering/vite/",
+    },
+  ],
+  // 进阶 前端 浏览器工作原理
+  "/advanced/browser/": [
+    {
+      text: "浏览器工作原理",
+      icon: "chrome",
+      link: "/advanced/browser/",
+      children: ["browser-macro-knowledge", "kernel-and-javascript-engine", "execution-details-of-rendering-process", "execution-details-of-v8-engine"]
+    },
+  ],
+  "/advanced/nodejs/": "structure",
+  // 其他 工具 vscode
+  "/others/vscode/": [
+    "install",
+    "get-started",
+    {
+      text: "简易指南",
+      icon: "guide",
+      prefix: "guide/",
+      children: [
+        "basic",
+        "customization",
+        "extension",
+        "file",
+        "edit",
+        "intellisense",
+        "git",
+        "debug",
+        "task",
+        "command",
+      ],
+    },
+    "ui",
+    "settings",
+    "shortcut-key",
+  ],
+  // 其他 工具 git
+  "/others/git/": [
+    "install",
+    "intro",
+    "create-repo",
+    "status",
+    "recall",
+    "reset",
+    "working-directory",
+    "change",
+    "remote",
+    "branch",
+    "tag",
+    "ignore",
+    "working",
+    "custom",
+  ],
+  // 其他 工具 git
+  "/others/github/": [
+    "intro",
+    "pr",
+    "semantic",
+    "pages",
+    "speedup",
+    "token",
+    {
+      text: "Github Actions",
+      icon: "actions",
+      prefix: "actions/",
+      children: [
+        "",
+        "intro",
+        "config",
+        {
+          text: "常见 Actions",
+          icon: "actions",
+          collapsable: true,
+          children: ["checkout", "cache", "gh-pages-deploy"],
+        },
+      ],
+    },
+    "deploy",
+    "vuepress"
+  ],
+  "/others/records/": [
+    "docsearchPlugin"
+  ],
+  "/others/mini-app/": [
     {
       text: "小程序教程",
       icon: "creative",
@@ -248,32 +330,31 @@ export const zh = sidebar({
     },
     "qr-code",
   ],
-  "/engineering/webpack5/": [
+  "/engineering/normalization/version-control/": [
     {
-      text: "webpack5",
-      icon: "tool",
-      link: "/engineering/webpack5/",
-      children: ["core-concept", "basic-config", "advanced-config", "performance-optimization-in-build", "performance-optimization-in-output", "generic-template"]
+      text: "版本控制",
+      icon: "git",
+      link: "/technical-specifications/version-control/",
+      children: ["version-number", "git-workflow", "git-commit-message"]
     },
   ],
-  "/engineering/vite/": [
+  "/engineering/normalization/code-style/": [
     {
-      text: "vite",
-      icon: "note",
-      link: "/engineering/vite/",
+      text: "代码风格",
+      icon: "code",
+      link: "/technical-specifications/code-style/",
+      children: ["html-spec", "css-spec", "javascript-spec", "vuejs-spec", "code-review"]
     },
   ],
-  // 进阶 前端 浏览器工作原理
-  "/advanced/browser/": [
+  "/engineering/automation/deploy/": [
     {
-      text: "浏览器工作原理",
-      icon: "chrome",
-      link: "/advanced/browser/",
-      children: ["browser-macro-knowledge", "kernel-and-javascript-engine", "execution-details-of-rendering-process", "execution-details-of-v8-engine"]
+      text: "自动部署",
+      icon: "code",
+      link: "/automation/deploy/",
+      children: ["CICD", "nginx"]
     },
   ],
-  // 进阶 运维 nginx
-  "/advanced/nginx/": [
+  "/engineering/automation/deploy/nginx/": [
     {
       text: "Nginx 用法整理",
       icon: "note",
@@ -287,78 +368,5 @@ export const zh = sidebar({
       children: ["practice-in-front-end-separation-project"]
     },
   ],
-  // 进阶 运维 nginx
-  "/advanced/nodejs/": "structure",
-  // 其他 工具 vscode
-  "/others/vscode/": [
-    "install",
-    "get-started",
-    {
-      text: "简易指南",
-      icon: "guide",
-      prefix: "guide/",
-      children: [
-        "basic",
-        "customization",
-        "extension",
-        "file",
-        "edit",
-        "intellisense",
-        "git",
-        "debug",
-        "task",
-        "command",
-      ],
-    },
-    "ui",
-    "settings",
-    "shortcut-key",
-  ],
-  // 其他 工具 git
-  "/others/git/": [
-    "install",
-    "intro",
-    "create-repo",
-    "status",
-    "recall",
-    "reset",
-    "working-directory",
-    "change",
-    "remote",
-    "branch",
-    "tag",
-    "ignore",
-    "working",
-    "custom",
-  ],
-  // 其他 工具 git
-  "/others/github/": [
-    "intro",
-    "pr",
-    "semantic",
-    "pages",
-    "speedup",
-    "token",
-    {
-      text: "Github Actions",
-      icon: "actions",
-      prefix: "actions/",
-      children: [
-        "",
-        "intro",
-        "config",
-        {
-          text: "常见 Actions",
-          icon: "actions",
-          collapsable: true,
-          children: ["checkout", "cache", "gh-pages-deploy"],
-        },
-      ],
-    },
-    "deploy",
-    "vuepress"
-  ],
-  "/others/records/": [
-    "docsearchPlugin"
-  ]
+
 });
