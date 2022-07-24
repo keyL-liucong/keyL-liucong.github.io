@@ -101,10 +101,10 @@ export default hopeTheme({
   },
 
   encrypt: {
-    config: {
-      "/guide/encrypt.html": ["1234"],
-      "/zh/guide/encrypt.html": ["1234"],
-    },
+    // config: {
+    //   "/guide/encrypt.html": ["1234"],
+    //   "/zh/guide/encrypt.html": ["1234"],
+    // },
   },
 
   plugins: {
@@ -139,7 +139,7 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      enableAll: true,
+      // enableAll: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
