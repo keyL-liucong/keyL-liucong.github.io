@@ -122,7 +122,7 @@ export const zh = sidebar({
       text: "vuejs",
       icon: "vue",
       link: "/frame/vuejs/",
-      children: ["basic-use", "advanced-use", "reactive-data", "virtual-dom-and-diff", "diff", "template-compile", "component-render-and-update", "vue-router"]
+      children: ["basic-use", "advanced-use", "reactive-data", "virtual-dom-and-diff", "diff", "template-compile", "component-render-and-update", "vue-router","source-code"]
     },
   ],
   "/frame/react/": [
@@ -140,7 +140,6 @@ export const zh = sidebar({
       link: "/frame/angular/",
     },
   ],
-
   "/engineering/webpack5/": [
     {
       text: "webpack5",
@@ -368,5 +367,12 @@ export const zh = sidebar({
       children: ["practice-in-front-end-separation-project"]
     },
   ],
-
+  "/advanced/technical-solutions/": [
+    {
+      text: "技术解决方案",
+      icon: "code",
+      link: "/advanced/technical-solutions/",
+      children: ["file-upload"]
+    },
+  ]
 });
