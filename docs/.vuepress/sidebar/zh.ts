@@ -206,6 +206,7 @@ export const zh = sidebar({
     "ignore",
     "working",
     "custom",
+    "merger-rebase"
   ],
   // 其他 工具 git
   "/others/github/": [
