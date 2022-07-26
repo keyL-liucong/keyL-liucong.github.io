@@ -2,6 +2,8 @@
 
 ## 前言
 
+[原型与原型链](https://www.bilibili.com/video/BV1y44y1a7Ho?spm_id_from=333.337.search-card.all.click)
+
 网上有句话：JavaScript 中万物皆对象，对象皆出自构造函数（这里的万物主要指引用类型）。
 
 比如下面代码：
@@ -24,7 +26,7 @@ console.log(person.name) // hello
 ```javascript
 // 函数对象: typeof 打印出来是 function
 Object
-Function
+Function 所有函数都是通过Function构造
 function fun1(){};
 const fun2 = function(){};
 const fun3 = new Function('name','console.log(name)');
@@ -38,6 +40,18 @@ const obj3 = new fun1();
 const obj4 = new new Function();
 ```
 
+### 1.函数与对象的关系
+* 函数是对象，对象都是通过函数创建的。
+* 函数与对象并不是简单的包含与被包含的关系。
+
+### 2.原型的类别*
+* 显示原型：prototype，是每个函数function独有的属性。
+* 隐式原型：__proto__,是每个对象(函数对象和普通对象)都具有的属性。
+  
+### 3.JavaScript里最顶层的两个概念
+* Function是最顶层的构造器，它构造了系统中所有的对象，包括用户定义对象，系统内置对象、甚至包括它自己。
+* Object是最顶层的对象，所有对象都继承Object的原型，Object也是被Function构造出来。
+  
 ## 三大属性
 
 * 对象独有的属性：
