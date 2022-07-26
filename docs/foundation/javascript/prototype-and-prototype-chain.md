@@ -44,7 +44,7 @@ const obj4 = new new Function();
 * 函数是对象，对象都是通过函数创建的。
 * 函数与对象并不是简单的包含与被包含的关系。
 
-### 2.原型的类别*
+### 2.原型的类别
 * 显示原型：prototype，是每个函数function独有的属性。
 * 隐式原型：__proto__,是每个对象(函数对象和普通对象)都具有的属性。
   
@@ -243,7 +243,11 @@ Object.prototype.__proto__ === null;              // true
 下面这张图通过 `__proto__` 和 `prototype` 把实例对象、构造函数、Object 和 Function 这些概念关联起来，乍一看很绕，但是如果能看懂，那么原型的这块知识就算理解了。
 
 ::: tip 原型的核心还是那句话
-**实例的 `__proto__` = 它的构造函数的 `prototype`**。
+**实例的 `__proto__` = 它的构造函数的 `prototype`**
+
+所有构造函数都是Function的实例，所有原型对象都是Object的实例除了Object.prototype。
+
+
 1.普通对象和函数对象  __proto__
 2.对象的__proto__指向它的构造函数prototype
 3.构造函数prototype本身也是一个对象，也有__proto__，指向构造这个构造函数的prototype
