@@ -244,6 +244,14 @@ Object.prototype.__proto__ === null;              // true
 
 ::: tip 原型的核心还是那句话
 **实例的 `__proto__` = 它的构造函数的 `prototype`**。
+1.普通对象和函数对象  __proto__
+2.对象的__proto__指向它的构造函数prototype
+3.构造函数prototype本身也是一个对象，也有__proto__，指向构造这个构造函数的prototype
+4.Object是最顶层，所以一直会找到Object.prototype.__proto__
+
+***.__proto__ 指向构造出***的构造函数的prototype
+
+构造函数的prototype本身也是对象，所以构造函数的prototype.__proto__ 指向构造出构造函数的prototype
 :::
 
 <div style="text-align: center;">
