@@ -67,7 +67,7 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebar.zh,
 
-      footer: "默认页脚",
+      footer: "当学习成为了习惯，知识也就是成为了常识。",
 
       displayFooter: true,
 
