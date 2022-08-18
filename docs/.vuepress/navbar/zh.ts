@@ -81,7 +81,7 @@ export const zh = navbar([
       },
       {
         text: "其他",
-        children: ["nodejs/"],
+        children: ["nodejs/","docker/"],
       },
     ],
   },
