@@ -223,9 +223,20 @@ CMD ["nginx", "-g", "daemon off;"]
 # 登录docker仓库
 docker login -u cn-east-3@VF6WHEI2GGBW9BQUIRFB -p c3b5f46a126ab95be356114d270d6f42c0bda9a1c19ad7263c3c629e4fa2484a swr.cn-east-3.myhuaweicloud.com
 
-# linux rsync -vzrtopag (同步文件)
-# /data/software/nodejs/node_modules =》 $WORKSPACE/(/data/jenkins/workspace/业务云/new-boss-page/)
+# rsync rsync是linux系统下的数据镜像备份工具.
+# rsync算法并不是每一次都整份传输，而是只传输两个文件的不同部分，因此其传输速度相当快。
+# 本地    rsync   选项       源      目标
+# Local:  rsync [OPTION...] SRC... [DEST]
+# -v：–verbose 复杂的输出信息。
+# -z：–compress 压缩模式，当资料在传送到目的端进行档案压缩。
+# -r：–recursive 复制所有下面的资料，递归处理。
+# -t：–times 保留时间点，文件原有时间。
+# -o：–owner 保留档案所有者(root only)。
+# -p：–perms 保留档案权限，文件原有属性。
+# -a：–archive archive mode 权限保存模式，相当于 -rlptgoD 参数，存档，递归，保持属性等。
+# -g：–group 保留原有属组。
 sudo /usr/bin/rsync -vzrtopag /data/software/nodejs/node_modules $WORKSPACE/
+sudo /usr/bin/rsync -vzrtopag /data/software/nodejs/node_modules /data/jenkins/workspace/业务云/new-boss-page/
 
 # docker ps -a 显示所有的容器，包括未运行的
 # grep  搜索 查找
@@ -236,13 +247,17 @@ if [ $(docker ps -a | grep npm_build | wc -l) -gt 0 ];then
   docker rm -f npm_build
 fi
 
+# docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 # 创建一个新的容器并运行一个命令
 # docker run --name 启动容器为容器指定一个名称
 # -v 绑定一个卷
 # 设置 --rm 选项，这样在容器退出时就能够自动清理容器内部的文件系统。
 docker run --name=npm_build -v  $WORKSPACE:/home/node --rm swr.cn-north-1.myhuaweicloud.com/xdzhu/nodejs:1.0
 
+# 图片 和 其他类型资源被忽略
+Images and other types of assets omitted.
 # $WORKSPACE/node_modules 同步到  /data/software/nodejs/下
+# 同步的都是.cache 缓存文件
 sudo /usr/bin/rsync -vzrtopag --progress $WORKSPACE/node_modules /data/software/nodejs/
 
 # 用来创建文件，在这之后输入的内容都放到文件中，直到EOF结束
