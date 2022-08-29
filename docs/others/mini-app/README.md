@@ -1,7 +1,5 @@
 ---
 title: 小程序
-icon: mini-app
-date: 2019-11-25
 category: 小程序
 star: true
 ---

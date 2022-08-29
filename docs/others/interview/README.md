@@ -4,6 +4,8 @@ sidebar: false
 
 # 面试相关
 
+[互联网大厂面试每日一题](https://q.shanyue.tech/)
+
 ![HTML面试题](./assets/HTML%E9%9D%A2%E8%AF%95%E9%A2%98.png)
 
 ![CSS面试题](./assets/CSS.png)

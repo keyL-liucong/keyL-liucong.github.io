@@ -99,7 +99,8 @@ export const zh = navbar([
         children: ["mobile-terminal/","desktop-applications/","mini-app","fast-application/"],
       },
       "records/",
-      "interview/"
+      "interview/",
+      "article/"
     ]
   },
 ]);
