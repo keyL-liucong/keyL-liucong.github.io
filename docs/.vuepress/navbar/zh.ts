@@ -100,7 +100,8 @@ export const zh = navbar([
       },
       "records/",
       "interview/",
-      "article/"
+      "article/",
+      "commonds/"
     ]
   },
 ]);
