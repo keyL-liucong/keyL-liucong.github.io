@@ -23,6 +23,10 @@ sidebar: false
 
 [掘金](https://juejin.cn/)
 
+## 面试相关
+
+[如何写「前端简历」](https://mp.weixin.qq.com/s/py_HLqOjNdL4l0CZHjMwqw)
+
 ## 微信相关
 
 [微信公众平台](https://mp.weixin.qq.com/)
@@ -45,11 +49,26 @@ sidebar: false
 
 [了解 HTTP 看这一篇就够](https://mp.weixin.qq.com/s/660tLcIx3KSzj-7f-vDyjw)
 
+[前端必备的 HTTP 知识！看这篇就够了！！](https://mp.weixin.qq.com/s/i5jdCP-4FiK4vAw4BgQNBw)
+
 [从输入 URL 到页面加载完成的过程中都发生了什么事情](http://fex.baidu.com/blog/2014/05/what-happen/)
+
+## svg canvans
+
+[案例+图解带你一文读懂SVG](https://juejin.cn/post/7124312346947764260)
+[案例+图解带你一文读懂Canvas](https://juejin.cn/post/7119495608938790942)
 
 ## js相关
 
 [JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+
+## node 相关
+
+[npm你不知道的细节](https://mp.weixin.qq.com/s/1tUIz_1nNJLWej33pr6lTw)
+
+## 浏览器相关
+
+[图解浏览器渲染原理及流程](https://mp.weixin.qq.com/s/9GMk0kFTHyTW_UrL0svNpQ)
 
 ## vue源码相关
 
@@ -76,6 +95,9 @@ sidebar: false
 [图片压缩](https://docsmall.com/image-compress)
 
 [工具合集](https://xiaomark.com/tool)
+
+[这样配置，让你的VS Code好用到飞起！](https://mp.weixin.qq.com/s/nhnJoNfOtxmgwnFvLrRJfA)
+
 
 
 
