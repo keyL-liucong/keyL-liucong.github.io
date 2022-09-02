@@ -62,6 +62,8 @@ sidebar: false
 
 [JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
 
+[JavaScript 代码优化之道](https://mp.weixin.qq.com/s/XPn7PKO8f55hIox_MzAo5A)
+
 ## node 相关
 
 [npm你不知道的细节](https://mp.weixin.qq.com/s/1tUIz_1nNJLWej33pr6lTw)
