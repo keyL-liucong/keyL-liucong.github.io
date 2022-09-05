@@ -1,6 +1,6 @@
 ---
 icon: question
-category: 踩坑合集
+category: 问题记录
 ---
 
 # docsearchPlugin插件使用

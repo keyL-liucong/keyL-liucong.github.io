@@ -58,11 +58,19 @@ sidebar: false
 [案例+图解带你一文读懂SVG](https://juejin.cn/post/7124312346947764260)
 [案例+图解带你一文读懂Canvas](https://juejin.cn/post/7119495608938790942)
 
+## css相关
+
+[深入理解 flex-grow、flex-shrink、flex-basis](https://juejin.cn/post/6844904016439148551)
+
 ## js相关
 
 [JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
 
 [JavaScript 代码优化之道](https://mp.weixin.qq.com/s/XPn7PKO8f55hIox_MzAo5A)
+
+## 前端性能优化相关
+
+[腾讯医药微信小程序性能优化：从0.9秒到0.5秒](https://mp.weixin.qq.com/s/kiLgCwfbak6CXHJWxomSeA)
 
 ## node 相关
 
@@ -80,15 +88,29 @@ sidebar: false
 
 [保姆级教学 Jenkins 部署前端项目](https://juejin.cn/post/7102360505313918983)
 
+[如何在部署前端应用时提高构建速度](https://juejin.cn/post/7138989725020323847)
+
+[Docker 入门终极指南，详细版！别再说不会用 Docker 了！](https://mp.weixin.qq.com/s/ug5seI9YigxIp88zD9SopQ)
+
 [写给前端的 K8S 上手指南](https://zhuanlan.zhihu.com/p/445217118)
+
+[使用 Docker 构建缓存及多阶段构建优化单页应用](https://blog.csdn.net/web2022050901/article/details/124793999)
 
 ## 前端监控相关
 
 [ARMS前端监控](https://help.aliyun.com/document_detail/58652.html)
 
+[前端性能监控 RUM](https://cloud.tencent.com/product/rum)
+
 [webfunny](https://www.webfunny.cn/home.html)
 
 [端监控平台/监控SDK的架构设计和难点亮点](https://juejin.cn/post/7108660942686126093)
+
+## 前端发展相关
+
+[除了 Qiankun， 这些微前端框架或许更适合你](https://juejin.cn/post/7121883538311348238)
+
+[一个写给初学者如何搞微前端的](https://juejin.cn/post/7118712142764703751)
 
 ## 工具相关
 
@@ -99,6 +121,8 @@ sidebar: false
 [工具合集](https://xiaomark.com/tool)
 
 [这样配置，让你的VS Code好用到飞起！](https://mp.weixin.qq.com/s/nhnJoNfOtxmgwnFvLrRJfA)
+
+[VSCode 最全实用插件](https://blog.csdn.net/libusi001/article/details/124309613)
 
 
 

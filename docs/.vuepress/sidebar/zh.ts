@@ -235,9 +235,6 @@ export const zh = sidebar({
     "deploy",
     "vuepress"
   ],
-  "/others/records/": [
-    "docsearchPlugin"
-  ],
   "/others/mini-app/": [
     {
       text: "小程序教程",
