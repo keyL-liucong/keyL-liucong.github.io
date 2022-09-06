@@ -100,4 +100,11 @@ code =》 后端拿到code =》 微信服务器获取 access_token
     《==========   openid、用户信息
 
 
+## 注意事项
+
+网页授权回调的地址要在以下填写的域名之下
+
+![网页授权回调的地址](./assets/wechat-account-3.png) 
+
+
 
