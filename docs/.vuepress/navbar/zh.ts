@@ -33,8 +33,8 @@ export const zh = navbar([
       {
         text: "模块化",
         icon: 'module',
-        prefix: "modules/",
-        children: ["AMD/","CMD/","CommonJs/","ESM/","UMD/"],
+        link: "modules/",
+        // children: ["AMD/","CMD/","commonJs/","ESM/","UMD/"],
       },
       {
         text: "规范化",
