@@ -72,6 +72,8 @@ sidebar: false
 
 [腾讯医药微信小程序性能优化：从0.9秒到0.5秒](https://mp.weixin.qq.com/s/kiLgCwfbak6CXHJWxomSeA)
 
+[得物App H5秒开优化实战](https://juejin.cn/post/7086284339364757517)
+
 ## node 相关
 
 [npm你不知道的细节](https://mp.weixin.qq.com/s/1tUIz_1nNJLWej33pr6lTw)
@@ -108,9 +110,13 @@ sidebar: false
 
 ## 前端发展相关
 
+[我终于把微前端(qiankun)落地生产项目了](https://juejin.cn/post/7114589692560932878)
+
 [除了 Qiankun， 这些微前端框架或许更适合你](https://juejin.cn/post/7121883538311348238)
 
 [一个写给初学者如何搞微前端的](https://juejin.cn/post/7118712142764703751)
+
+[qiankun微前端改造实战](https://juejin.cn/post/7096047543447978014)
 
 ## 工具相关
 
