@@ -68,6 +68,14 @@ sidebar: false
 
 [JavaScript 代码优化之道](https://mp.weixin.qq.com/s/XPn7PKO8f55hIox_MzAo5A)
 
+## 前端工程化
+
+[前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
+
+## 前端模块化
+
+[为什么模块循环依赖不会死循环？CommonJS和ES Module的处理不同？](https://mp.weixin.qq.com/s/t-TUAzL0q0oK7HsDVQRNMw)
+
 ## 前端性能优化相关
 
 [腾讯医药微信小程序性能优化：从0.9秒到0.5秒](https://mp.weixin.qq.com/s/kiLgCwfbak6CXHJWxomSeA)
@@ -129,6 +137,8 @@ sidebar: false
 [这样配置，让你的VS Code好用到飞起！](https://mp.weixin.qq.com/s/nhnJoNfOtxmgwnFvLrRJfA)
 
 [VSCode 最全实用插件](https://blog.csdn.net/libusi001/article/details/124309613)
+
+[正则大全](https://any86.github.io/any-rule/)
 
 
 
