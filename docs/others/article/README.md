@@ -3,6 +3,18 @@ sidebar: false
 ---
 # 文章收藏
 
+## 经典技术书籍 PDF 文件
+
+[经典技术书籍 PDF 文件](https://awesome-programming-books.github.io/)
+
+## Learn X in Y minutes
+
+[Learn X in Y minutes](https://learnxinyminutes.com/)
+
+## Vue超全资源
+
+[Vue超全资源](https://mp.weixin.qq.com/s/jsscIOb0IFbI69tq6wTHLg)
+
 ## 官方文档
 
 [vuejs](https://cn.vuejs.org/)
@@ -46,6 +58,8 @@ sidebar: false
 [关于鉴权，看懂这篇就够了](https://mp.weixin.qq.com/s/qBizMF4MwcX4ORU_nrVUmg)
 
 ## http相关
+
+[浏览器网络篇](https://mp.weixin.qq.com/s/cH6sTLX-LJT0wbahMxLW2g)
 
 [了解 HTTP 看这一篇就够](https://mp.weixin.qq.com/s/660tLcIx3KSzj-7f-vDyjw)
 
@@ -100,9 +114,15 @@ sidebar: false
 
 [如何在部署前端应用时提高构建速度](https://juejin.cn/post/7138989725020323847)
 
+[从Docker到Kubernetes](https://zhuanlan.zhihu.com/p/437623321)
+
 [Docker 入门终极指南，详细版！别再说不会用 Docker 了！](https://mp.weixin.qq.com/s/ug5seI9YigxIp88zD9SopQ)
 
 [写给前端的 K8S 上手指南](https://zhuanlan.zhihu.com/p/445217118)
+
+[Kubernetes(K8s) 解决了哪些问题？](https://www.zhihu.com/question/329365548)
+
+[Kubernetes（k8s）安装以及搭建k8s-Dashboard详解](https://www.cnblogs.com/liugp/p/16357445.html)
 
 [使用 Docker 构建缓存及多阶段构建优化单页应用](https://blog.csdn.net/web2022050901/article/details/124793999)
 
