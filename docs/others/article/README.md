@@ -82,6 +82,8 @@ sidebar: false
 
 [JavaScript 代码优化之道](https://mp.weixin.qq.com/s/XPn7PKO8f55hIox_MzAo5A)
 
+[封装axios，一次封装终身受益](https://juejin.cn/post/7124573626161954823)
+
 ## 前端工程化
 
 [前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
@@ -159,6 +161,12 @@ sidebar: false
 [VSCode 最全实用插件](https://blog.csdn.net/libusi001/article/details/124309613)
 
 [正则大全](https://any86.github.io/any-rule/)
+
+[正则](https://juejin.cn/post/7153800580077453326)
+
+## 网络安全
+
+[常见网站攻击技术，一篇打包全部带走！](https://mp.weixin.qq.com/s/8icBQurPVBZhMStJlyPOOA)
 
 
 
